@@ -1,14 +1,11 @@
-import React from "react";
+import React, { ReactElement } from "react";
 
 interface IContentArea {
   style?: any;
-  text: string[];
+  text: any[];
 }
 
 const ContentArea = ({ text, style }: IContentArea) => {
-  if (text.length !== 2) {
-    return <div>Unsupported</div>;
-  }
   return (
     <div
       style={{
@@ -22,7 +19,7 @@ const ContentArea = ({ text, style }: IContentArea) => {
         <div
           style={{
             padding: "30px",
-            maxWidth: "700px",
+            maxWidth: "400px",
             color: "white",
             lineHeight: "1.5",
             fontSize: "20px",

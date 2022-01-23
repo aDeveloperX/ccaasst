@@ -40,17 +40,17 @@ function App() {
   expert network in Antarctic, remote and maritime medicine. It delivers:
   Comprehensive medical services and support for the Australian Antarctic
   Program, as well as other organisations operating in Antarctic, Southern
-  Ocean and Remote medical paradigms. Accredited training and educational
-  pathways for generalist Antarctic, Remote and Maritime health
-  practitioners. Human biology and medicine research relating to polar,
-  remote and extreme environments. CARMM is based in the Australian
-  Antarctic Gateway city of Hobart, Tasmania.`,
-    `Consolidating Australia’s only established network of Australian
-  Antarctic medical and human biology, cold climate health expertise,
-  CARMM affords the following benefits and related opportunities:
-  Collaborative centre of excellence of clinical practice, vocational and
-  postgraduate training, education and research. Recruitment and training
-  of generalist and specialist health professionals in Tasmania, with
+  Ocean and Remote medical paradigms.`,
+    <ul>
+      Consolidating Australia’s only established network of Australian Antarctic
+      medical and human biology, <li>cold climate</li> <li>health expertise</li>
+      <li>
+        CARMM affords the following benefits and related opportunities:
+        Collaborative centre of excellence of clinical practice, vocational and
+        postgraduate training, education and research.
+      </li>
+    </ul>,
+    ` Recruitment and training of generalist and specialist health professionals in Tasmania, with
   skills applicable to Antarctic, Remote and Maritime medical practice.
   Expand and develop innovations in telehealth utilising frontier medicine
   technology. Enhance the Tasmanian, Antarctic and Southern Ocean hub of
