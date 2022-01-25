@@ -1,9 +1,9 @@
 import React, { useCallback, useRef } from "react";
 import "./ImageCard.css";
-import demo1 from "../../assets/ImageCardImages/1.png";
-import demo2 from "../../assets/ImageCardImages/2.png";
-import demo3 from "../../assets/ImageCardImages/3.png";
-import demo4 from "../../assets/ImageCardImages/4.png";
+import demo1 from "../../assets/ImageButtons/1.jpeg";
+import demo2 from "../../assets/ImageButtons/2.jpg";
+import demo3 from "../../assets/ImageButtons/3.jpg";
+import demo4 from "../../assets/ImageButtons/4.jpg";
 
 interface IImageCard {
   src: any;
@@ -36,7 +36,10 @@ const ImageCard = ({ src, text }: IImageCard) => {
         {text}
       </div>
 
-      <img style={{ width: "600px", marginTop: "20px" }} src={src} />
+      <img
+        style={{ width: "600px", height: "320px", marginTop: "20px" }}
+        src={src}
+      />
     </div>
   );
 };

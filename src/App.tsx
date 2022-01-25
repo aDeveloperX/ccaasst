@@ -50,11 +50,13 @@ function App() {
         postgraduate training, education and research.
       </li>
     </ul>,
-    ` Recruitment and training of generalist and specialist health professionals in Tasmania, with
-  skills applicable to Antarctic, Remote and Maritime medical practice.
-  Expand and develop innovations in telehealth utilising frontier medicine
-  technology. Enhance the Tasmanian, Antarctic and Southern Ocean hub of
-  expertise domestically and internationally.`,
+    <ul>
+      Recruitment and training of generalist and specialist health professionals
+      in Tasmania, with skills applicable to Antarctic, Remote and Maritime
+      medical practice. Expand and develop innovations in telehealth utilising
+      frontier medicine technology. Enhance the Tasmanian, Antarctic and
+      Southern Ocean hub of expertise domestically and internationally.
+    </ul>,
   ];
 
   return (
@@ -62,11 +64,11 @@ function App() {
       <ResponsiveAppBar />
       {/* <MainRoute /> */}
       <Carousel autoPlay infiniteLoop />
-      <ButtonGroup
+      {/* <ButtonGroup
         style={{ marginTop: "-200px", position: "relative", zIndex: 1 }}
         data={buttonData}
-      />
-      <ContentArea style={{ marginTop: "85px" }} text={contentAreaData} />
+      /> */}
+      <ContentArea style={{ marginTop: "-56px" }} text={contentAreaData} />
       <ImageCards />
       <div style={{ marginTop: "70px" }}>
         <Footer />

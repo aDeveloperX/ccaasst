@@ -2,7 +2,9 @@ import React from "react";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import NavLinks from "../NavLinks/NavLinks";
 import { Link } from "@material-ui/core";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.svg";
+import p1 from "../../assets/Partners/p1.png";
+import p2 from "../../assets/Partners/p2.png";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -15,7 +17,11 @@ const useStyles = makeStyles((theme: Theme) =>
       marginRight: theme.spacing(2),
     },
     imageSize: {
-      height: "200px",
+      height: "120px",
+      padding: "50px",
+    },
+    partnerSize: {
+      height: "70px",
     },
     mainWrapper: {
       display: "flex",
@@ -29,7 +35,15 @@ export default function DenseAppBar() {
 
   return (
     <div className={classes.mainWrapper}>
-      <img className={classes.imageSize} src={logo} />
+      <div>
+        <img className={classes.imageSize} src={logo} />
+        <div
+          style={{ display: "flex", marginTop: "-50px", marginLeft: "30px" }}
+        >
+          <img className={classes.partnerSize} src={p1} />
+          <img className={classes.partnerSize} src={p2} />
+        </div>
+      </div>
       <div className={classes.root}>
         <NavLinks />
       </div>

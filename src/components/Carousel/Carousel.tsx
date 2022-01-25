@@ -46,19 +46,19 @@ const Carousel = ({ ...props }) => {
       <div>
         <CarouselItem
           image={landscape}
-          text="HEALTHCARE IN REMOTE AND EXTREME ENVIRONMENTS"
+          text="Centre for Antarctic and Southern Ocean Technology"
         />
       </div>
       <div>
         <CarouselItem
           image={landscape2}
-          text="HEALTHCARE IN REMOTE AND EXTREME ENVIRONMENTS"
+          text="Centre for Antarctic and Southern Ocean Technology"
         />
       </div>
       <div>
         <CarouselItem
           image={landscape3}
-          text="HEALTHCARE IN REMOTE AND EXTREME ENVIRONMENTS"
+          text="Centre for Antarctic and Southern Ocean Technology"
         />
       </div>
     </Cs>

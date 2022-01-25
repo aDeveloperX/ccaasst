@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "@material-ui/core/Link";
 import "./NavLinks.css";
+import { Colours } from "../../theme/Colours";
 
 const NavLinks = () => {
   const LinkData = [
@@ -10,15 +11,19 @@ const NavLinks = () => {
       route: "",
     },
     {
-      name: "Link1",
+      name: "Antarctic",
       route: "",
     },
     {
-      name: "Link2",
+      name: "Remote",
       route: "",
     },
     {
-      name: "Link3",
+      name: "Maritime",
+      route: "",
+    },
+    {
+      name: "Space",
       route: "",
     },
     {
@@ -35,7 +40,7 @@ const NavLinks = () => {
     <div className="NavLinks">
       {LinkData.map((x) => (
         <Link
-          style={{ color: "black", fontSize: "20px" }}
+          style={{ color: Colours.DarkBlue, fontSize: "18px" }}
           component="button"
           variant="body2"
           onClick={() => {

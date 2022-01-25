@@ -3,8 +3,9 @@ import twitterIcon from "../../assets/Footer/twitter.png";
 import linkedinIcon from "../../assets/Footer/linkedin.png";
 import ag from "../../assets/Footer/ag.svg";
 import menzies from "../../assets/Footer/menzies.svg";
-import tasgov from "../../assets/Footer/tasgov.svg";
+import Csiro from "../../assets/Footer/CSIRO.png";
 import utas from "../../assets/Footer/utas.svg";
+import cast from "../../assets/logo.svg";
 
 interface IImage {
   src: any;
@@ -64,8 +65,8 @@ const Footer = () => {
       text: "Partners",
       imgProps: [
         { src: ag, navTo: "https://www.antarctica.gov.au/" },
-        { src: tasgov, navTo: "https://www.tas.gov.au/" },
-        { src: menzies, navTo: "https://www.menzies.utas.edu.au/" },
+        { src: cast, navTo: "https://www.cast-collaboration.org.au/" },
+        { src: Csiro, navTo: "https://www.csiro.au/en/" },
         { src: utas, navTo: "https://www.utas.edu.au/" },
       ],
     },
@@ -99,7 +100,7 @@ const Footer = () => {
             paddingBottom: "30px",
           }}
         >
-          © 2019–{new Date().getFullYear()} CARMM. All Rights Reserved.
+          © 2019–{new Date().getFullYear()} CAST. All Rights Reserved.
         </div>
       </div>
     </div>
